@@ -14,15 +14,14 @@ parser = argparse.ArgumentParser(
 parser.add_argument('--desc',
                     default=None,
                     type=str,
-                    description='add description to the task')
+                    help='add description to the task')
 parser.add_argument('-t', '--time',
-                    default=25,
                     help='time in minutes',
                     type=int)
 parser.add_argument('-c', '--category',
                     default=None,
                     type=str,
-                    description='specify ')
+                    help='specify the category of')
 parser.add_argument('-f', '--font',
                     default='colossal',
                     type=str)
