@@ -1,10 +1,9 @@
-#!/usr/bin/python3
 import pyfiglet
 import argparse
 import os
 from time import monotonic, sleep
 import shutil
-import notify
+from pomodoro.utils import notify
 
 
 parser = argparse.ArgumentParser(
